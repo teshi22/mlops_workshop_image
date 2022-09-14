@@ -1,0 +1,21 @@
+name: mlops-workshop-env
+channels:
+      - defaults
+      - conda-forge
+      - pytorch
+dependencies:
+      - python=3.8.13
+      - pip
+      - flake8
+      - isort
+      - black
+      - numpy=1.23.1
+      - matplotlib=3.5.2
+      - tqdm=4.64.0
+      - pytorch=1.10.0
+      - pillow=9.2.0
+      - torchvision=0.11.1
+      - mlflow
+      - pip:
+              - azureml-core==1.43.0
+              - azureml-mlflow==1.43.0.post1
